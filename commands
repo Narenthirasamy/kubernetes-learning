@@ -1,0 +1,31 @@
+Calico - pod network
+
+1pod - 1 specialised service
+Side car - 
+Minimum 3 required for effective architecture
+
+
+To set default namespace:
+kubectl config set-context --current namespace=<insert-namespace-name-here>
+
+Kubectl get label
+
+Kubectl get rs
+
+Deployments
+
+
+Taint - tolerations
+
+kubectl taint node ip-172-31-53-53.ec2.internal taintdemo=true:NoSchedule
+
+kubectl taint node ip-172-31-53-53.ec2.internal taintdemo:NoSchedule-
+
+UnSchedullable
+Cordoned
+kubectl cordon ip-172-31-53-53.ec2.internal 
+node/ip-172-31-53-53.ec2.internal cordoned
+
+kubectl uncordon ip-172-31-53-53.ec2.internal 
+node/ip-172-31-53-53.ec2.internal uncordoned
+
