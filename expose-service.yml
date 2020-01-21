@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: service
+spec:
+  type: NodePort
+  selector:
+    run: nginx
+    #department: engineering
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
