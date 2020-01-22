@@ -41,3 +41,12 @@ kubectl create secret generic regcred --from-file=.dockerconfigjson=/root/.docke
 Configmap
 
 kubectl create configmap game-config --from-file=configmap/ --namespace=naren
+
+
+Volumes
+VolumesClaims
+Persistentvolumes
+PersistentVolumeClaims
+
+Dashboard
+https://github.com/Narenthirasamy/k8s-dashboard
