@@ -50,3 +50,27 @@ PersistentVolumeClaims
 
 Dashboard
 https://github.com/Narenthirasamy/k8s-dashboard
+
+
+https://12factor.net/
+
+Cluster —> NS —>
+
+RBAC
+  ROLE - Set of rules for Namespaces/individuals
+  Cluster ROLE - Set of rule for Cluster 
+     Addons:
+        Nodes
+  Binding 
+    Role binding
+    Cluster Role binding
+
+Helm and application version should be similar and version similar
+
+helm repo add https://narenthirasamy.github.io/helm-charts/
+
+helm repo list
+
+helm repo update .
+
+Helm get manifest <release_name>
